@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:doc="http://xsltsl.org/xsl/documentation/1.0" xmlns:dt="http://xsltsl.org/date-time" xmlns:str="http://xsltsl.org/string" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <title>Ryan Murphy</title>
+    <style type="text/css" id="static">
+    /* Reset browser defaults *//* --------------------------------------------------------------
+    Reset default browser CSS.
+    Based on work by Eric Meyer:
+    * http://meyerweb.com/eric/tools/css/reset/index.html
+    -------------------------------------------------------------- *//* v1.0 | 20080212 */html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+    body {line-height: 1; background: #FFF; text-align: left; font-feature-settings: "liga" 0; -moz-font-feature-settings: "liga" off;}
+    /*ol, ul {list-style: none;}*/
+    blockquote, q {quotes: none;}
+    blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+    /* remember to define focus styles! */:focus {outline: 0;}
+    /* remember to highlight inserts somehow! */ins {text-decoration: none;}
+    del {text-decoration: line-through;}
+    /* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse; border-spacing: 0;}
+    a img {border: none;}
+    /* Typography */
+
+    /*START old disc style for LI
+    ul, li {list-style-type: disc; margin: 0 0 0 12px; padding: 0;}
+    ul li {margin: 0 0 0 18px; padding: 0 0 0 3px;}
+    END old disc style for LI*/
+
+    /*START Image treatment for LI*/
+    /*ul {list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNJREFUeNpiYCAAtIB4OxDfAOIoZIm9QPwfiv8AMT8TVOIvLqMMgPgqEL8F4ky8lgIEGAC+Fgk0YKVkbwAAAABJRU5ErkJggg==");}*/
+    ul, li {margin: 0 0 0 13px; padding: 0;}
+    ul li {margin: 0 0 0 16px; padding: 0 0 0 3px;}
+    /*END Image treatment for LI*/
+
+    .clear {clear: both; height: 0;}
+    br.clear {line-height: 0;}
+    div.name {font-size: 15px; line-height: 17px; font-weight: bold; padding: 0; text-align: left;}
+    div.logo {display: none;}
+    div.heading {clear: both; font-weight: bold;}
+    div.address {position: relative; text-align: right; font-size: 0.917em; line-height: 1.25em; margin-top: 11px;}
+    div.address2 {position: relative; text-align: left; font-size: 0.917em; line-height: 1.25em;}
+    span.jobtitle, span.companyname, span.degree, span.programline {font-weight: bold;}
+    span.cdesc {font-style: italic;}
+    div#document table {width: 100%;}
+    .table_wrapper {width: 100%; margin-top: 0;}
+    table.twocol td {width: 50%;}
+    table.skills {width: 100%;}
+    table.skills th, table.skills td {width: 20%; text-align: center;}
+    table.skills th {text-decoration: underline;}
+    table.skills .skillname, table.skills .skillrating {text-align: left; width: 35%;}
+    table.skills .skillrating {width: 20%;}
+    table.skills .skillyears, table.skills .skilllast {width: 19%;}
+    table.skills .pad1 {width: 5%;}
+    table.skills .pad2, table.skills .pad3 {width: 1%;}
+    span.paddedline {display: block;}
+    .nodisplay {display: none;}
+    div.lowerborder {padding-top: 2px;}
+    div.resumeTitle, div.execRsmTitle {font-weight: bold; text-align: center;}
+    div#document div.heading {padding-bottom: 1px;}
+    td.twocol_2 {border-left:1px  solid #FEFDFD;}
+    .charspace{}
+    .myGap{}
+    /*FIX for FORCEFULLY making left margin ZERO for CL*/
+    div#document .sectionCL .paragraph {margin-top: 0!important;}
+  </style>
+    <style type="text/css" id="unparsed">
+    div#document {line-height: {$FTLH}px;}
+    div#document table {line-height: {$FTLH}px;}
+    div#document.pagesize {width: {$DOCW}px;}
+    div#document.vmargins {padding-top: {$TBMR}px; padding-bottom: {$TBMR}px;}
+    div#document.hmargins {padding-left: {$LRMR}px; padding-right: {$LRMR}px;}
+    div#document .section {margin-top: {$SCSP}px;}
+    div#document div.firstsection {margin-top: 0;}
+    div#document div.SECTION_CNTC {margin-top: 0;}
+    div#document div.heading {margin-bottom: {$SHMB}px;}
+    div#document div.paragraph {margin-top: {$PSPC}px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: {$PIND}px; width: {$MACW}px;}
+    .fontsize {font-size: {$FTSZ}px;}
+    .fontface {font-family: {$FTFC};}
+    div#document div.sectiontitle {font-size: {$HDSZ}px; line-height: {$HDLH}px;}
+    div.name {font-size: {$NMSZ}px; line-height: {$NMLH}px;}
+    div#document .thinbottomborder {border-bottom: {$LNWT}px solid;}
+    div#document .lowerborder {display: {$LNWV};}
+    div.address {font-size: {$CISZ}px; line-height: {$CILH}px; margin-top: {$CIMT}px;}
+    div#document table.skills td {padding-top: {$TDMT}px;}
+    div.resumeTitle {font-size: {$RTTL}px; line-height: {$RTLH}px;}
+    div.execRsmTitle {font-size: {$ETTL}px; line-height: {$ETLH}px;}
+    span.compDescWrap {margin-bottom: {$CDES}px;}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%; font-size: {$FTSZ}px;}
+    div.address2 {font-size: {$FTSZ}px; line-height: {$FTLH}px;}
+    div#document .sectionDT {margin-top: {$SCDT}px;}
+  </style>
+    <style type="text/css" id="dynamic">
+    div#document {line-height: 13px;}
+    div#document table {line-height: 13px;}
+    div#document.pagesize {width: 532px;}
+    div#document.vmargins {padding-top: 37px; padding-bottom: 37px;}
+    div#document.hmargins {padding-left: 40px; padding-right: 40px;}
+    div#document .section {margin-top: 7px;}
+    div#document div.firstsection {margin-top: 0;}
+    div#document div.SECTION_CNTC {margin-top: 0;}
+    div#document div.heading {margin-bottom: 2px;}
+    div#document div.paragraph {margin-top: 4px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: 0px; width: 532px;}
+    .fontsize {font-size: 10px;}
+    .fontface {font-family: Arial, Helvetica, sans-serif;}
+    div#document div.sectiontitle {font-size: 12px; line-height: 15px;}
+    div.name {font-size: 16px; line-height: 22px;}
+    div#document .thinbottomborder {border-bottom: 1px solid;}
+    div#document .lowerborder {display: inherit;}
+    div.address {font-size: 9px; line-height: 12px; margin-top: 3px;}
+    div#document table.skills td {padding-top: 2px;}
+    div.resumeTitle {font-size: 12px; line-height: 18px;}
+    div.execRsmTitle {font-size: 11px; line-height: 14px;}
+    span.compDescWrap {margin-bottom: 2px;}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%; font-size: 10px;}
+    div.address2 {font-size: 10px; line-height: 13px;}
+    div#document .sectionDT {margin-top: 12px;}
+  </style>
+  </head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize">
+      <div id="SECTION_NAME339183264" class="section firstsection" style="padding-top:0px;">
+        <div id="PARAGRAPH_339183264_1_219102507" class="paragraph PARAGRAPH_NAME firstparagraph" style="padding-top:0px;">
+        <div class="name thinbottomborder">
+          <span class="field" id="339183264FNAM1">Ryan</span><span> </span><span class="field" id="339183264LNAM1">Murphy</span>
+        </div>
+        <div class="myGap"></div>
+        <div class="lowerborder thinbottomborder"></div>
+      </div>
+      </div>
+      <div id="SECTION_CNTC339183265" class="section SECTION_CNTC" style="padding-top:0px;">
+        <div id="PARAGRAPH_339183265_1_219102508" class="paragraph PARAGRAPH_CNTC firstparagraph" style="padding-top:0px;">
+        <div class="address">
+          <div>
+            <span class="field" dependency="STRT" id="339183265STRT1"></span>
+            <span class="spaced field" id="339183265CITY1">Barrie</span><span> </span>
+            <span class="spaced field" id="339183265STAT1">Ontario</span>
+            <span class="spaced field" id="339183265ZIPC1"></span>
+          </div>
+          <div>
+            <span>Home: </span><span class="field" id="339183265HPHN1">(705) 719-1250</span>
+            <span> - </span>
+            <span>Cell: </span><span class="field" id="339183265CPHN1">(705) 790-8129</span>
+            <span> - </span>
+            <span class="field" id="339183265EMAI1">ryan@yanmurph.com</span>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_SUMM339183266" class="section" style="padding-top:0px;"></div>
+      <div id="SECTION_HILT339183267" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_HILT339183267" class="sectiontitle thinbottomborder">Core Qualifications</div>
+      </div>
+        <div id="PARAGRAPH_339183267_1_219102509" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="singlecolumn maincolumn">
+          <table class="twocol">
+            <tr>
+              <td class="field twocol_1 charspace" id="339183267SKC11">SKILLS Proficient in many software, including Adobe Photoshop, Illustrator, InDesign, Acrobat; Corel Painter, Corel Draw; QuarkXPress Passport; Macromedia Flash, Dreamweaver, Fireworks; Microsoft Office. Both Mac and PC platforms.</td>
+              <td class="field twocol_2 charspace" id="339183267SKC21"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_EXPR339183269" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_EXPR339183269" class="sectiontitle thinbottomborder">Professional Experience</div>
+      </div>
+        <div id="PARAGRAPH_339183269_1_219102510" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="339183269JTIT1">Graphic Designer</span><br>
+            <span>
+              <span class="jobdates" format="%B %Y" id="339183269JSTD1">August 2007</span><span> to </span>
+              <span class="jobdates" format="%B %Y" id="339183269EDDT1">Current</span>
+            </span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="339183269COMP1">ImageOn - Print Copy Scan</span><span> － </span>
+            <span class="joblocation jobcity" id="339183269JCIT1">Barrie</span><span>, </span>
+            <span class="joblocation jobstate" id="339183269JSTA1">Ontario</span>
+          </span>
+          <span class="paddedline">
+            <span class="jobline" id="339183269JDES1">Responsibilities include, but are not limited to: graphic design (brochures, business cards, letterhead design, logos, catalogues, and posters); digital printing and copying (both black & white and full colour); binding and finishing (cerlox binding, padding, cutting, and scoring); customer service, and invoicing.</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183269_2_219102511" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="339183269JTIT2">Freelance Graphic Designer</span><br>
+            <span>
+              <span class="jobdates" format="%B %Y" id="339183269JSTD2">September 2005</span><span> to </span>
+              <span class="jobdates" format="%B %Y" id="339183269EDDT2">Current</span>
+            </span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="339183269COMP2">Brenda Rynard of Royal LePage, International</span>
+            <span class="joblocation jobcity" id="339183269JCIT2"></span>
+            <span class="joblocation jobstate" id="339183269JSTA2"></span>
+          </span>
+          <span class="paddedline">
+            <span class="jobline" id="339183269JDES2">Hired to do graphic design, illustration, and web design. Clients include, but are not limited to: Brownstone Home Inspections, Brenda Rynard of Royal LePage, International Academy of Design & Technology, Constellation Design, Tao Zen Chuan Karate, Robert L.Hines (Comedian), and Ontario Trade Academy.</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183269_3_219102512" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="339183269JTIT3">Web Design Intern</span><br>
+            <span>
+              <span class="jobdates" format="%B %Y" id="339183269JSTD3">May 2005</span><span> to </span>
+              <span class="jobdates" format="%B %Y" id="339183269EDDT3">October 2005</span>
+            </span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="339183269COMP3">Bad Penny Films</span><span> － </span>
+            <span class="joblocation jobcity" id="339183269JCIT3">Chicago</span><span>, </span>
+            <span class="joblocation jobstate" id="339183269JSTA3">Illinois</span>
+          </span>
+          <span class="paddedline">
+            <span class="jobline" id="339183269JDES3">Maintained the Bad Penny Films website, and created new and original websites for clients.</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183269_4_219102513" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="339183269JTIT4">Graphic Designer</span><br>
+            <span>
+              <span class="jobdates" format="%B %Y" id="339183269JSTD4">February 2004</span><span> to </span>
+              <span class="jobdates" format="%B %Y" id="339183269EDDT4">June 2004</span>
+            </span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="339183269COMP4">City of Windsor</span><span> － </span>
+            <span class="joblocation jobcity" id="339183269JCIT4">Windsor</span><span>, </span>
+            <span class="joblocation jobstate" id="339183269JSTA4">Ontario</span>
+          </span>
+          <span class="paddedline">
+            <span class="jobline" id="339183269JDES4">Independently designed and created a catalogue for the Infrastructure Support Department for the City of Windsor, in both print and web format.</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183269_5_219102514" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="339183269JTIT5">Drywaller/Painter</span><br>
+            <span>
+              <span class="jobdates" format="%B %Y" id="339183269JSTD5">February 1998</span><span> to </span>
+              <span class="jobdates" format="%B %Y" id="339183269EDDT5">August 2003</span>
+            </span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="339183269COMP5">Simson Construction</span><span> － </span>
+            <span class="joblocation jobcity" id="339183269JCIT5">Port Sydney</span><span>, </span>
+            <span class="joblocation jobstate" id="339183269JSTA5">Ontario</span>
+          </span>
+          <span class="paddedline">
+            <span class="jobline" id="339183269JDES5">Boarded and taped drywall, painted, stained, stuccoed, and insulated homes, as part of construction for both new and older homes.</span>
+          </span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_EDUC339183270" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_EDUC339183270" class="sectiontitle thinbottomborder">Education</div>
+      </div>
+        <div id="PARAGRAPH_339183270_1_219102515" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" dependency="DGRE" id="339183270DGRE1">Diploma</span>
+            <span> : </span>
+            <span class="programline" dependency="STUY" id="339183270STUY1">Graphic Design</span><span>, </span>
+            <span class="jobdates" id="339183270GRYR1">2004</span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" dependency="SCHO" id="339183270SCHO1">St. Clair College</span>
+            <span> － </span>
+            <span class="joblocation jobcity" id="339183270SCIT1">Windsor</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SSTA1">Ontario</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SCNT1">CA</span>
+          </span>
+          
+          <span class="paddedline">
+            <span class="field" id="339183270FRFM1">2001 - 2004 St. Clair College; Windsor, Ontario Diploma of Technology, Graphic Design</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183270_2_219102516" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" dependency="DGRE" id="339183270DGRE2"></span>
+            
+            <span class="programline" dependency="STUY" id="339183270STUY2">General Arts and Science</span><span>, </span>
+            <span class="jobdates" id="339183270GRYR2">2001</span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" dependency="SCHO" id="339183270SCHO2">St. Clair College</span>
+            <span> － </span>
+            <span class="joblocation jobcity" id="339183270SCIT2">Windsor</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SSTA2">Ontario</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SCNT2">CA</span>
+          </span>
+          
+          <span class="paddedline">
+            <span class="field" id="339183270FRFM2">2000 - 2001 St. Clair College; Windsor, Ontario General Arts and Science</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183270_3_219102517" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" dependency="DGRE" id="339183270DGRE3">Certificate</span>
+            <span> : </span>
+            <span class="programline" dependency="STUY" id="339183270STUY3">Art Fundamentals</span><span>, </span>
+            <span class="jobdates" id="339183270GRYR3">2000</span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" dependency="SCHO" id="339183270SCHO3">Georgian College</span>
+            <span> － </span>
+            <span class="joblocation jobcity" id="339183270SCIT3">Barrie</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SSTA3">Ontario</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SCNT3">CA</span>
+          </span>
+          
+          <span class="paddedline">
+            <span class="field" id="339183270FRFM3">1999 - 2000 Georgian College; Barrie, Ontario Art Fundamentals Certificate</span>
+          </span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_339183270_4_219102518" class="paragraph" style="padding-top:0px;">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" dependency="DGRE" id="339183270DGRE4">Diploma</span>
+            <span> : </span>
+            <span class="programline" dependency="STUY" id="339183270STUY4"></span>
+            <span class="jobdates" id="339183270GRYR4">1997</span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" dependency="SCHO" id="339183270SCHO4">Bracebridge & Muskoka Lakes Secondary School</span>
+            <span> － </span>
+            <span class="joblocation jobcity" id="339183270SCIT4">Bracebridge</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SSTA4">Ontario</span><span>, </span>
+            <span class="joblocation jobstate" id="339183270SCNT4">CA</span>
+          </span>
+          
+          <span class="paddedline">
+            <span class="field" id="339183270FRFM4">1993 – 1997 Bracebridge & Muskoka Lakes Secondary School; Bracebridge, Ontario Ontario Secondary School Diploma</span>
+          </span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_CERT339183271" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_CERT339183271" class="sectiontitle thinbottomborder">Certifications</div>
+      </div>
+        <div id="PARAGRAPH_339183271_1_219102519" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="field singlecolumn" id="339183271FRFM1"><ul><li>CPR</li><li>Art Fundamentals Certificate</li></ul></div>
+      </div>
+      </div>
+      <div id="SECTION_TSKL339183268" class="section" style="padding-top:0px;"></div>
+      <div id="SECTION_INTR339183272" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_INTR339183272" class="sectiontitle thinbottomborder">Interests</div>
+      </div>
+        <div id="PARAGRAPH_339183272_1_219102520" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="field singlecolumn" id="339183272FRFM1">Music, music production, guitar, graphic design, illustration, web design, and martial arts: Tai Chi and Karate (black belt). Trained in Emergency First Aid and CPR Level C. www.yanmurph.com</div>
+      </div>
+      </div>
+      <div id="SECTION_SKLL339183273" class="section" style="padding-top:0px;">
+        <div class="heading">
+        <div id="SECTNAME_SKLL339183273" class="sectiontitle thinbottomborder">Skills</div>
+      </div>
+        <div id="PARAGRAPH_339183273_1_219102521" class="paragraph firstparagraph" style="padding-top:0px;">
+        <div class="field singlecolumn" id="339183273FRFM1">Graphic Design, Clients, Web Design, Illustration, Inspections, Copying, Customer Service, Finishing, Invoicing, Printing, Receptionist, Retail Sales, Drywall, Painter, Acrobat, Adobe Photoshop, Corel Draw, Cpr, Dreamweaver, Flash, Illustrator, Indesign, Mac, Macromedia, Macromedia Flash, Microsoft Office, Ms Office, Passport, Photoshop, Quarkxpress Passport</div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
